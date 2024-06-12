@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Units</title>
+    <style>
+        * {
+            margin: 0;
+        }
+        .box {
+            /* height: 120px;
+            width: 300px; */
+            background-color: lightgreen;
+
+            /* text-wrap:  nowrap; */
+            /* overflow: auto; */
+            /* overflow: hidden; */
+            /* overflow: scroll; */
+
+            overflow-x: hidden;
+            /* overflow-y: scroll; */
+
+            /* font-size: 2rem; */
+
+            /* width: 50%; */
+            /* width: 100vw; */
+            width: 20vw;
+            height: 100vh;
+
+            border: 5px solid green;
+
+        }
+
+        p{
+            font-size: 2em;
+            /* 32px/2rem  * 2 */
+            /* width: 50%; */
+            /* background-color: red; */
+
+        }
+
+        .parent{
+            border: 2px solid black;
+            display: flex;
+
+            /* justify-content:  ; => row  */
+
+            /* align-items: ; => column  */
+        }
+
+        .children{
+            height: 200px;
+            width: 200px;
+            border: 2px solid green;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- <h2>Css Units</h2>
+
+    <ol>
+        <li>px(pixels) => fixed => not used for responsive design</li>
+        <li>rem => related to the root element(html) => 1rem = 16px </li>
+        <li>em => related to the parent element </li>
+        <li>% => related to the parent element</li>
+        <li>vh =>related to the viewport's height</li>
+        <li>vw => related to the viewport's width</li>
+    </ol> -->
+
+    <!-- <div class="box">
+        <p>Lorem ipsum dolor sit amet consectetur 
+            adipisicing elit. Non nesciunt accusantium quis architecto aliquid tenetur nihil. Fuga, reiciendis earum. Deleniti cum officiis possimus quis, sunt facere quos! Tenetur, ipsam quasi.
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum suscipit fugiat sunt inventore quis? Quibusdam illum ex magnam provident expedita dolor praesentium voluptas facere. Iure labore incidunt quae quia odit?</p>
+    </div> -->
+
+
+    <div class="parent">
+
+        <div class="children"></div>
+        <div class="children"></div>
+        <div class="children"></div>
+        <div class="children"></div>
+        <div class="children"></div>
+    </div>
+
+
+</body>
+
+</html>
