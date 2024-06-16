@@ -1,0 +1,47 @@
+ .parent {
+     border: 2px solid black;
+     width: 50%;
+     position: relative;
+ }
+
+ .child {
+     height: 150px;
+     width: 150px;
+     border: 2px solid blueviolet;
+
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     font-size: 2rem;
+ }
+
+ #child1 {
+    /* position: static; */
+    /* position: relative; */
+    position: fixed;
+    /* margin-top: 3rem; */
+    /* top: 3rem; */
+    background-color: green;
+    bottom: 2rem;
+    right: 2rem;
+    height: 50px;
+    width: 50px;
+    color: white;
+    border-radius: 100%;
+ }
+ #child2{
+    position: sticky;
+    background-color: aqua;
+    top: 0;
+    /* width: 100%; */
+ }
+ #child3{
+    position: absolute;
+    right: 0;
+ }
+
+
+
+
+
+
