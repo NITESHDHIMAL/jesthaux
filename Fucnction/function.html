@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Function</title>
+</head>
+
+<body>
+
+
+    <form handleSubmit="onSubmit">
+
+        <label for="">
+            username:
+            <input type="text" placeholder="username" value="user">
+
+
+            <button>Submit</button>
+        </label>
+
+    </form>
+
+
+    <script>
+
+        // let a = 50;
+        // let b = 60;
+
+        // c = a + b;
+
+        // console.log(c)
+
+        // function functionName( parameter ) {
+        //     return ()
+        // }
+        // functionName(aruguments)
+
+        // function addTwoNumber(a,b) {
+        //     console.log(a + b)
+        // }
+        // addTwoNumber(50, 70)
+
+
+        // function addTwoNumber(a,b) {
+        //     // console.log(a + b)
+        //     let result = a + b;
+
+        //     return result
+
+        // }
+        // const result = addTwoNumber(50, 70)
+
+        // console.log(result)
+
+
+
+        function onSubmit(user = "Shyam") {
+            if (user === undefined) {
+                console.log("Please fill your user.")
+            }
+
+            return console.log(`${user} successfully login.`)
+        }
+
+        userLoginMessage("Ram")
+        // userLoginMessage()
+
+
+
+
+
+
+
+
+
+    </script>
+</body>
+
+</html>
